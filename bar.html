@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yegor256/tacit@gh-pages/tacit-css.min.css"/>
+    <script src="assets/NoSleep.min.js"></script>
+  </head>
+  <body>
+  	<h1 id="main-h1">Жми старт</h1>
+  	<div id="button-cnt">
+  		<button id="start">START</button>
+  	</div>
+  	<div id="timer-cnt">
+  		<h3 id="timer"></h3>  		
+  	</div>
+  	<script type="text/javascript">
+  		var noSleep = new NoSleep();
+  		document.getElementById('start').addEventListener('click', function() {
+  			document.getElementById('button-cnt').hidden = true;
+  			document.getElementById('timer-cnt').hidden = false;
+  			document.getElementById('main-h1').textContent = "Считаю секунды";
+  			noSleep.enable();
+	  		var seconds = 0;
+	  		setInterval(
+	  			function() {
+	  				seconds++;
+	  				document.getElementById('timer').textContent = seconds;
+	  			}, 1000
+	  		);  			
+  		});			
+  		document.getElementById('timer-cnt').hidden = true;
+  	</script>
+  	<script type="text/javascript">  		
+  	</script>
+  </body>
+</html>
