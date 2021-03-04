@@ -17,3 +17,7 @@ php -S 0.0.0.0:8080
 ### pay attention 
 
 User must to do something at start, tap or click. Press "START" button in example page is required
+
+# Links
+
+Used [NoSleep.js](https://github.com/richtr/NoSleep.js/)
