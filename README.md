@@ -12,5 +12,5 @@ php -S 0.0.0.0:8080
 
 2. Open http://{your ip}/bar.html in your mobile device
 
-3. Wait :)_
+3. Wait :)
 
