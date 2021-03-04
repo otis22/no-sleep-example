@@ -14,3 +14,6 @@ php -S 0.0.0.0:8080
 
 3. Wait :)
 
+### pay attention 
+
+User must to do something at start, tap or click. Press "START" button in example page is required
